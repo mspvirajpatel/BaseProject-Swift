@@ -2,8 +2,8 @@
 //  Constants.swift
 //  ViewControllerDemo
 //
-//  Created by SamSol on 27/06/16.
-//  Copyright © 2016 SamSol. All rights reserved.
+//  Created by Viraj Patel on 27/06/16.
+//  Copyright @ 2017 Viraj Patel. All rights reserved.
 //
 
 import Foundation

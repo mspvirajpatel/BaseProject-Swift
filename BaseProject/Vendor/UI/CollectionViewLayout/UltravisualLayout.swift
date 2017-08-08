@@ -3,7 +3,7 @@
 //  InHeadLine
 //
 //  Created by Amrit on 3/31/16.
-//  Copyright © 2016 Esig. All rights reserved.
+//  Copyright @ 2017 Esig. All rights reserved.
 //
 
 import UIKit

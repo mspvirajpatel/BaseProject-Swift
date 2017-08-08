@@ -2,8 +2,8 @@
 //  MyFoundationViewController.swift
 //  BaseProjectSwift
 //
-//  Created by MacMini-2 on 23/11/16.
-//  Copyright © 2016 WMT. All rights reserved.
+//  Created by Viraj Patel on 23/11/16.
+//  Copyright @ 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit

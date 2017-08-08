@@ -3,7 +3,7 @@
 //  TaskManager
 //
 //  Created by Michal Sverak on 10/21/16.
-//  Copyright © 2016 MichalSverak. All rights reserved.
+//  Copyright @ 2017 MichalSverak. All rights reserved.
 //
 
 import Foundation

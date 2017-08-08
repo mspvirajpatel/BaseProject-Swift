@@ -2,8 +2,8 @@
 //  MyFoundationView.swift
 //  BaseProjectSwift
 //
-//  Created by MacMini-2 on 23/11/16.
-//  Copyright © 2016 WMT. All rights reserved.
+//  Created by Viraj Patel on 23/11/16.
+//  Copyright @ 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit
@@ -124,7 +124,7 @@ class MyFoundationView: BaseView, UIAlertViewDelegate {
         deviceInfoButton.setButtonTouchUpInsideEvent { (sender, object) in
             BFLogClear()
             
-            BFLog(message:"iOS Version: \(UIDevice.iOSVersionName())")
+           // BFLog(message:"iOS Version: \(UIDevice.iOSVersionName())")
             
             BFLog(message:"RAM Size: \(UIDevice.ramSize() / 1024 / 1024) MB")
             

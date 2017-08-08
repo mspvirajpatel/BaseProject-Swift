@@ -2,8 +2,8 @@
 //  PhotoCollectionCell.swift
 //  BaseProjectSwift
 //
-//  Created by MacMini-2 on 29/11/16.
-//  Copyright © 2016 WMT. All rights reserved.
+//  Created by Viraj Patel on 29/11/16.
+//  Copyright @ 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit

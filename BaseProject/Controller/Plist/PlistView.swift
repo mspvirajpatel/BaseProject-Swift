@@ -2,8 +2,8 @@
 //  PlistView.swift
 //  WMTSwiftDemo
 //
-//  Created by SamSol on 14/09/16.
-//  Copyright © 2016 WMT. All rights reserved.
+//  Created by Viraj Patel on 14/09/16.
+//  Copyright @ 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit

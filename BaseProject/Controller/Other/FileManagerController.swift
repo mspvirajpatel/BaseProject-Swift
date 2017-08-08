@@ -2,8 +2,8 @@
 //  FileManagerController.swift
 //  BaseProjectSwift
 //
-//  Created by WebMob on 05/04/17.
-//  Copyright © 2017 WMT. All rights reserved.
+//  Created by Viraj Patel on 05/04/17.
+//  Copyright © 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit

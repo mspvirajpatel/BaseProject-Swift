@@ -2,8 +2,8 @@
 //  ImageUploadView.swift
 //  BaseProjectSwift
 //
-//  Created by WebMob on 28/11/16.
-//  Copyright © 2016 WMT. All rights reserved.
+//  Created by Viraj Patel on 28/11/16.
+//  Copyright @ 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit
@@ -161,7 +161,7 @@ class ImageUploadView: BaseView
         
         progreeView.progress = uploadedImg / totalImg
         
-        print("Completed : \(arrCount.firstObject)" , "Total : \(arrCount[1])")
+        print("Completed : \(String(describing: arrCount.firstObject))" , "Total : \(arrCount[1])")
         print("Progress : \(uploadedImg / totalImg)")
         
         if arrCount[0] as! Int == arrCount[1] as! Int

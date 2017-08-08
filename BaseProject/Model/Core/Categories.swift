@@ -1,10 +1,4 @@
-//
-//  Categories.swift
-//  TaskManager
-//
-//  Created by Michal Sverak on 10/6/16.
-//  Copyright © 2016 MichalSverak. All rights reserved.
-//
+
 
 import Foundation
 import UIKit

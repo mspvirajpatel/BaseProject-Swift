@@ -1,9 +1,9 @@
 //
 //  LeftMenuView.swift
-//  troopool
+//  Base Project
 //
-//  Created by WebMobTech-1 on 10/13/16.
-//  Copyright © 2016 WebMobTech. All rights reserved.
+//  Created by Viraj Patel on 10/13/16.
+//  Copyright @ 2017 Viraj Patel. All rights reserved.
 //
 
 import UIKit

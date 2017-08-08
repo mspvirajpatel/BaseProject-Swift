@@ -2,8 +2,8 @@
 //  PreferencesExplorer.swift
 //  BaseProject
 //
-//  Created by MacMini-2 on 13/06/17.
-//  Copyright © 2017 WMT. All rights reserved.
+//  Created by Viraj Patel on 13/06/17.
+//  Copyright © 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit

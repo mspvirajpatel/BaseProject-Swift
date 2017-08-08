@@ -2,7 +2,7 @@
 //  ImageViewer.swift
 //  ImageViewer
 //
-//  Created by MacMini-2 on 25/03/17.
+//  Created by Viraj Patel on 25/03/17.
 //  Copyright (c) 2017 WMT All rights reserved.
 //
 

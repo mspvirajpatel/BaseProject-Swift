@@ -1,10 +1,4 @@
-//
-//  BaseZoomingScrollView.swift
-//  GasdropUser
-//
-//  Created by WebMob on 07/10/16.
-//  Copyright © 2016 WebMobTech. All rights reserved.
-//
+
 
 import UIKit
 import Kingfisher

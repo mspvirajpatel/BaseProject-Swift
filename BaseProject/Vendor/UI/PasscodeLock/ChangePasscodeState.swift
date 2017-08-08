@@ -1,10 +1,4 @@
-//
-//  ChangePasscodeState.swift
-//  CloudFileManager
-//
-//  Created by MacMini-2 on 28/06/17.
-//  Copyright © 2016 WMT. All rights reserved.
-//
+
 
 import Foundation
 

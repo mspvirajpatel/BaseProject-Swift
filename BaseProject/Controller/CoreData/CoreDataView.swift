@@ -2,8 +2,8 @@
 //  SpeakerListView.swift
 //  WMTSwiftDemo
 //
-//  Created by SamSol on 12/08/16.
-//  Copyright © 2016 WMT. All rights reserved.
+//  Created by Viraj Patel on 12/08/16.
+//  Copyright @ 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit
@@ -54,17 +54,11 @@ class CoreDataView: BaseView, UITableViewDataSource, UITableViewDelegate{
         super.loadViewControls()
         
         
-        testView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 200))
-        
-        testView.translatesAutoresizingMaskIntoConstraints = false
-        testView.backgroundColor = UIColor.red
-        testView.layer.setValue("testView", forKey: ControlLayout.name)
-        self.addSubview(testView)
-        
-        
+    
         taskListTableView = UITableView(frame: CGRect.zero, style: .grouped)
         taskListTableView.translatesAutoresizingMaskIntoConstraints = false
-    taskListTableView.layer.setValue("taskListTableView", forKey: ControlLayout.name)
+   
+        taskListTableView.layer.setValue("taskListTableView", forKey: ControlLayout.name)
         
         taskListTableView.register(UITableViewCell.self, forCellReuseIdentifier: CellIdentifire.defaultCell)
         
@@ -84,6 +78,8 @@ class CoreDataView: BaseView, UITableViewDataSource, UITableViewDelegate{
         taskListTableView.delegate = self
         taskListTableView.dataSource = self
         
+        taskListTableView.tableHeaderView = self.obtainHeaderView()
+        
         self.loadtasks()
 
         self.taskListTableView.reloadData()
@@ -91,6 +87,22 @@ class CoreDataView: BaseView, UITableViewDataSource, UITableViewDelegate{
 //        let directory: String = FileManager.getDocumentsDirectoryForFile(file: "db.sqlite")
 //        NSLog("Database Directory: \(directory)")
 
+    }
+    
+    func obtainHeaderView() -> UIView {
+        
+        let headerView = UIView()
+        
+        testView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 200))
+        
+        testView.translatesAutoresizingMaskIntoConstraints = false
+        testView.backgroundColor = UIColor.red
+        testView.layer.setValue("testView", forKey: ControlLayout.name)
+        headerView.addSubview(testView)
+        
+        headerView.frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 200)
+        
+        return headerView
     }
     
     override func setViewlayout(){
@@ -107,21 +119,16 @@ class CoreDataView: BaseView, UITableViewDataSource, UITableViewDelegate{
                               "controlLeftRightPadding" : controlLeftRightPadding
         ]
         
-        baseLayout.control_H = NSLayoutConstraint.constraints(withVisualFormat: "H:|[testView]|", options:NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: baseLayout.viewDictionary)
+        baseLayout.control_H = NSLayoutConstraint.constraints(withVisualFormat: "H:|[taskListTableView]|", options:NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: baseLayout.viewDictionary)
         
-        baseLayout.control_V = NSLayoutConstraint.constraints(withVisualFormat: "V:|[testView(200)][taskListTableView]-|", options:[.alignAllLeading,.alignAllTrailing], metrics: nil, views: baseLayout.viewDictionary)
+        baseLayout.control_V = NSLayoutConstraint.constraints(withVisualFormat: "V:|-[taskListTableView]-|", options:[.alignAllLeading,.alignAllTrailing], metrics: nil, views: baseLayout.viewDictionary)
         
         self.addConstraints(baseLayout.control_H)
         self.addConstraints(baseLayout.control_V)
         
-        
         generateDiagonal(view: testView)
         
         self.layoutSubviews()
-        
-        
-        
-       // baseLayout.expandView(taskListTableView, insideView: self)
         
     }
     

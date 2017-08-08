@@ -2,8 +2,8 @@
 //  VehicleImage.swift
 //  GasdropUser
 //
-//  Created by WebMob on 03/10/16.
-//  Copyright © 2016 WebMobTech. All rights reserved.
+//  Created by Viraj Patel on 03/10/16.
+//  Copyright @ 2017 Viraj Patel. All rights reserved.
 //
 
 import UIKit

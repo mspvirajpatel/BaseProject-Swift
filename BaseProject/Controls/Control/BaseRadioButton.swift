@@ -1,10 +1,3 @@
-//
-//  BaseRadioButtonViewController.swift
-//  GasdropDriver
-//
-//  Created by MacMini-2 on 11/10/16.
-//  Copyright © 2016 WebMobTech. All rights reserved.
-//
 
 
 import Foundation

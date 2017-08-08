@@ -2,8 +2,8 @@
 //  DriverPhotoViewerView.swift
 //  GasdropDriver
 //
-//  Created by MacMini-2 on 14/10/16.
-//  Copyright © 2016 WebMobTech. All rights reserved.
+//  Created by Viraj Patel on 14/10/16.
+//  Copyright @ 2017 Viraj Patel. All rights reserved.
 //
 
 import UIKit

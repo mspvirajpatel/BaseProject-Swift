@@ -2,8 +2,8 @@
 //  BaseView.swift
 //  ViewControllerDemo
 //
-//  Created by SamSol on 24/08/15.
-//  Copyright (c) 2015 SamSol. All rights reserved.
+//  Created by Viraj Patel on 24/08/15.
+//  Copyright (c) 2015 Viraj Patel. All rights reserved.
 //
 
 import UIKit

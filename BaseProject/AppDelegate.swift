@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  BaseProjectSwift
-//
-//  Created by MacMini-2 on 14/11/16.
-//  Copyright © 2016 WMT. All rights reserved.
-//
 
 import UIKit
 import UserNotifications

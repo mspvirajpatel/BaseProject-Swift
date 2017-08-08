@@ -2,7 +2,7 @@
 //  CircularLoaderView.swift
 //  ImageLoaderIndicator
 //
-//  Created by Richard Turton on 17/02/2015.
+//  Created by Viraj Patel on 17/02/2015.
 //  Copyright (c) 2015 Rounak Jain. All rights reserved.
 //
 

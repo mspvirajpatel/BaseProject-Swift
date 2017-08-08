@@ -2,8 +2,8 @@
 //  PasscodeLockViewController.swift
 //  CloudFileManager
 //
-//  Created by MacMini-2 on 28/06/17.
-//  Copyright © 2016 WMT. All rights reserved.
+//  Created by Viraj Patel on 28/06/17.
+//  Copyright @ 2017 Viraj Patel All rights reserved.
 //
 
 import UIKit

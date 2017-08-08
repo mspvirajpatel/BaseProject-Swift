@@ -2,8 +2,8 @@
 //  SegmentControlView.swift
 //  ViewControllerDemo
 //
-//  Created by SamSol on 01/07/16.
-//  Copyright © 2016 SamSol. All rights reserved.
+//  Created by Viraj Patel on 01/07/16.
+//  Copyright @ 2017 Viraj Patel. All rights reserved.
 //
 
 import UIKit

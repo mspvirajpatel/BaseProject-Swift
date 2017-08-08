@@ -1,10 +1,3 @@
-//
-//  AutolayoutView.swift
-//  BaseProjectSwift
-//
-//  Created by WebMob on 02/02/17.
-//  Copyright © 2017 WMT. All rights reserved.
-//
 
 import UIKit
 
